@@ -1,0 +1,32 @@
+package newlogicsclass;
+
+public class don {
+	
+	public static void main(String[] args) {
+		String str="don";
+		
+		char [] ch=str.toCharArray();
+		
+		for(int i=0; i<ch.length; i++)
+		{
+			print(ch[i]);
+		}
+				
+		
+		
+	}
+	
+	
+	static void print(char ch)
+	{
+		char c='a';
+		
+		while(c<=ch)
+		{
+			System.out.println(c);
+			c=(char)(c+1);
+		}
+		
+	}
+
+}
